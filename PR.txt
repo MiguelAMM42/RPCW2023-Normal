@@ -1,0 +1,154 @@
+2
+
+use scienceJobs
+
+db.contracts.countDocuments() dá 17943
+
+
+db.contracts.countDocuments({InstituicaoEnsino:  { $regex: "Universidade do Minho" }}) dá 1446
+
+db.contracts.countDocuments({InstituicaoEnsino: "Universidade do Minho" }) dá 1399
+
+
+db.contracts.distinct("AreaCNAEF").sort()
+
+
+Agricultura sem definição precisa
+Agricultura, silvicultura, pescas e ciências veterinárias sem definição precisa
+Ambiente sem definição precisa
+Ambientes naturais e vida selvagem
+Aprendizagem de línguas
+Arquitetura e construção sem definição precisa
+Arquitetura e urbanismo
+Artes e humanidades sem definição precisa
+Artes sem definição precisa
+Artesanato
+Belas-artes
+Biblioteconomia, arquivística e ciências da informação
+Biologia
+Bioquímica
+Ciências biológicas e ciências afins sem definição precisa
+Ciências da educação
+Ciências da terra
+Ciências dentárias
+Ciências do ambiente
+Ciências empresariais e administração sem definição precisa
+Ciências empresariais, administração e direito sem definição precisa
+Ciências farmacêuticas
+Ciências físicas sem definição precisa
+Ciências naturais, matemática e estatística sem definição precisa
+Ciências políticas e cidadania
+Ciências sociais e comportamentais sem definição precisa
+Ciências sociais, jornalismo e informação sem definição precisa
+Ciências veterinárias
+Competências laborais
+Construção civil e engenharia civil
+Contabilidade e fiscalidade
+Desenvolvimento e análise de software e aplicações informáticas
+Design de moda, de interiores e industrial
+Design e administração de bases de dados e de redes informáticas
+Desporto
+Direito
+Economia
+Eletricidade e energia
+Eletrónica e automação
+Enfermagem geral e enfermagem obstétrica
+Engenharia e tecnologias afins sem definição precisa
+Engenharia química e de processos
+Engenharia, indústrias transformadoras e construção sem definição precisa
+Estatística
+Filosofia e ética
+Finanças, banca e seguros
+Formação de educadores de infância
+Formação de professores de áreas disciplinares específicas
+Formação de professores de áreas disciplinares não específicas
+Física
+Gestão e administração
+História e arqueologia
+Horticultura
+Humanidades (exceto línguas) sem definição precisa
+Indústrias alimentares
+Indústrias extrativas
+Informática na ótica do utilizador
+Jornalismo e informação sem definição precisa
+Jornalismo e reportagem
+Literatura e linguística
+Línguas sem definição precisa
+Marketing e publicidade
+Matemática
+Matemática e estatística sem definição precisa
+Materiais (vidro, papel, plástico e madeira)
+Medicina
+Medicina tradicional e complementar e terapia
+Metalurgia e metalomecânica
+Música e artes do espetáculo
+Pescas
+Produção agrícola e animal
+Programas de Agricultura não classificados noutras áreas
+Programas de Artes  não classificados noutras áreas
+Programas de Artes e humanidades não classificados noutras áreas
+Programas de Ciências biológicas e ciências afins não classificados noutras áreas
+Programas de Ciências empresariais e administração não classificados noutras áreas
+Programas de Ciências empresariais, administração e direito não classificados noutras áreas
+Programas de Ciências físicas não classificados noutras áreas
+Programas de Ciências sociais e comportamentais não classificados noutras áreas
+Programas de Ciências sociais, jornalismo e informação não classificados noutras áreas
+Programas de Educação não classificados noutras áreas
+Programas de Educação sem definição precisa
+Programas de Engenharia e tecnologias afins não classificados noutras áreas
+Programas de Engenharia, indústrias transformadoras e construção não classificados noutras áreas
+Programas de Humanidades (exceto línguas) não classificados noutras áreas
+Programas de Indústrias transformadoras não classificados noutras áreas
+Programas de Jornalismo e informação não classificados noutras áreas
+Programas de Línguas não classificados noutras áreas
+Programas de Proteção social não classificados noutras áreas
+Programas de Saúde e proteção social não classificados noutras áreas
+Programas de Saúde não classificados noutras áreas
+Programas de Tecnologias da informação e comunicação (TICs) não classificados noutras áreas
+Programas e qualificações genéricos sem definição precisa
+Programas e qualificações interdisciplinares que envolvem a Educação
+Programas e qualificações interdisciplinares que envolvem a Engenharia, indústrias transformadoras e construção
+Programas e qualificações interdisciplinares que envolvem as Artes e humanidades
+Programas e qualificações interdisciplinares que envolvem as Ciências naturais, matemática e estatística
+Programas e qualificações interdisciplinares que envolvem as Tecnologias da Informação e Comunicação (TICs)
+Proteção social sem definição precisa
+Psicologia
+Química
+Religião e teologia
+Saúde e segurança no trabalho
+Saúde pública
+Saúde sem definição precisa
+Serviços de transporte
+Serviços pessoais sem definição precisa
+Silvicultura
+Sociologia e estudos culturais
+Tecnologia de proteção do ambiente
+Tecnologias da informação e comunicação (TICs) sem definição precisa
+Tecnologias de diagnóstico e terapêutica
+Terapia e reabilitação
+Trabalho social e aconselhamento
+Técnicas audiovisuais e produção dos media
+Têxteis (vestuário, calçado e couro)
+Veículos a motor, navios e aviões
+Viagens, turismo e lazer
+Área desconhecida
+
+
+
+----
+
+
+
+Ano: 2017, Contratos: 1310
+Ano: 2018, Contratos: 2042
+Ano: 2019, Contratos: 5833
+Ano: 2020, Contratos: 6293
+Ano: 2021, Contratos: 2465
+
+
+-----
+
+
+
+
+
